@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="my.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="font-family: Signika , sans-serif;">
+    
+  <div class="navbar">
+ <div class="brand">S.Shiva Charan</div>
+<a href="#" class="toggle-button">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</a>
+  <div class="navbar-links">
+
+  <ul>
+<li style="color: rgb(9, 10, 47);"> <a style="color: rgb(9, 10, 47);" href="practise.html">Home</a></li>
+<li  style="color: rgb(9, 10, 47);"> <a  style="color: rgb(9, 10, 47);" href="education.html">Education</a></li>
+<li style="color: rgb(9, 10, 47);"> <a style="color: rgb(9, 10, 47);" href="hobbies.html">Hobbies</a></li>
+</ul>
+</div>
+
+</div>
+<div class="home">
+    This website contains all about me - S.Shiva Charan<br>
+
+ <div class="home-img">
+    <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_655998316_2000149920009280219_363765.jpg" alt="">
+<img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ" alt=""> 
+<img src="https://play-lh.googleusercontent.com/AL3EqKySuwbpfiGNPGPL5lg3J8_dV-VfCiHW0XcCjGeYYiGCElmJWeO3jcoOZc5m3Pg" alt="">
+</div>
+</div>
+<script>
+    const togglebutton=document.getElementsByClassName("toggle-button")[0]
+const navbarlinks=document.getElementsByClassName("navbar-links")[0]
+
+togglebutton.addEventListener('click' , () => {
+navbarlinks.classList.toggle('active')
+})
+</script>
+</body>
+</html>

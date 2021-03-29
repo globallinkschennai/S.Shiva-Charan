@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="my.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="font-family: Signika , sans-serif;">
+    
+  <div class="navbar">
+ <div class="brand">S.Shiva Charan</div>
+<a href="#" class="toggle-button">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</a>
+  <div class="navbar-links">
+
+  <ul>
+    <li style="color: rgb(9, 10, 47);"> <a style="color: rgb(9, 10, 47);" href="practise.html">Home</a></li>
+    <li  style="color: rgb(9, 10, 47);"> <a  style="color: rgb(9, 10, 47);" href="education.html">Education</a></li>
+    <li style="color: rgb(9, 10, 47);"> <a style="color: rgb(9, 10, 47);" href="hobbies.html">Hobbies</a></li>
+    </ul>
+</div>
+
+</div>
+<div class="education">
+    <p class="one">
+I am a student of class 7 ,
+studying in D.A.V. Boys senior secondary school, Gopalapuram, Chennai, India. <br>
+It is one the best schools in my opinion. It teaches us discipline and moral values along. It provides us high quality education which is rooted in Vedic values. It is a part of the Arya Samaj society.The founder of D.A.V. Grouop of schools and arya samaj is none other than,  Maharishi Dyanand Saraswati- A great vedic philosopher and a social leader.
+</p>
+<p class="two">
+<img  src="https://www.indiastudychannel.com/attachments/schools/60603-2-DAV-Boys-Senior-Secondary-School-Gopalapuram-Chennai.jpg" alt="">
+</p>
+</div>
+<br><br><br><br><br><br>
+<script>
+    const togglebutton=document.getElementsByClassName("toggle-button")[0]
+const navbarlinks=document.getElementsByClassName("navbar-links")[0]
+
+togglebutton.addEventListener('click' , () => {
+navbarlinks.classList.toggle('active')
+})
+</script>
+</body>
+</html>

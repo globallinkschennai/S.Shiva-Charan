@@ -1,0 +1,182 @@
+body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-image: url(https://motionarray.imgix.net/preview-202818-ZUOpxFpW3v-high_0005.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+color: rgb(9, 23, 63);
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: rgb(9, 10, 47);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: rgb(255, 196, 0);
+width:100%;
+position: fixed;
+}
+
+.brand{
+    font-size: 40px;
+    margin:3px;
+    color: rgb(9, 10, 47);
+}
+
+
+.navbar-links ul{
+    padding: 0;
+    margin: 0;
+    display:flex;
+    width:100%;
+    
+}
+.navbar-links{
+    width: 350px;
+    
+}
+
+.navbar-links li{
+    list-style-type: none;
+    color: rgb(9, 10, 47);
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    font-size: 20px;
+}
+.navbar-links li a:hover{
+background-color: white;
+color: rgb(47, 51, 51);
+}
+.toggle-button{
+position: absolute;
+top:13px;
+right: 5px;
+display: none;
+flex-direction: column;
+justify-content: space-between;
+width:30px;
+height: 21px;
+
+}
+.navbar-links ul li a{
+    font-size: 25px;
+}
+.toggle-button .bar{
+    background-color: white;
+width: 100%;
+height: 3px;
+border-radius: 3px;
+}
+.home , .education , .hobbies
+{
+    padding-top: 180px;
+    width: 100%;
+    text-align: center;
+    font-size:30px;
+    
+}
+.home-img {
+    width: 100%;
+}
+.home-img img{
+height: 200px;
+width: 250px;
+}
+.education .one {
+    width: 50%;
+}
+
+.education {
+    display: flex;
+    padding-top: 180px;
+}
+.two{
+    margin-left: 50px;
+}
+.education .two img{
+    width: 600px;
+    height: 400px;
+}
+.hobbies img{
+    width: 580px;
+}
+.hobbies .img img{
+    width: 200px;
+    height: 230px;
+}
+.hobbies .image {
+    width: 250px;
+    height: 200px;
+}
+@media (max-width:900px){
+    .education , .home , div , .hobbies{
+        font-size: 25px;
+  
+    }
+    .education , .home 
+    {
+        padding-top: 100px;
+    }
+    .education .one {
+        width: 100%;
+    
+    }
+    .education .two{
+        width: 100%;
+    }
+    .education  {
+        display: block;
+       
+        padding-top: 100px;
+    }
+    .two{
+        margin-left: 0px;
+    }
+    .education .two img{
+        width: 280px;
+        height: 170px;
+    }
+    .hobbies img{
+        width: 300px;
+    }
+    .hobbies .img img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .toggle-button{
+        display :flex;
+    }
+ 
+    .navbar{
+        flex-direction: column;
+    align-items: flex-start;
+    }
+    .navbar-links , ul{
+        flex-direction: column;
+      width: 100%;
+        
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a{
+        padding: 1px;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+    .navbar-links{
+    display: none;
+    }
+    
+}
